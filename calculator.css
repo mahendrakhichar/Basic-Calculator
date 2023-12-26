@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #5520a5, #e7b2b2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.keypad{
+    padding: 20px;  
+    background: rgba(4, 4, 37, 0.679);
+    border-radius: 10px;
+}
+
+.keypad form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+#special{
+    width: 125px;
+}
+
+form input.button{
+    color: blueviolet;
+
+}
